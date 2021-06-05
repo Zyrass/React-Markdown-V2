@@ -1,3 +1,8 @@
+.h1Start,
+.h1End {
+  display: inline-block;
+}
+
 .header {
   min-width: 100vw;
   height: 70px;
@@ -8,4 +13,3 @@
   border-bottom: 5px solid #000;
   font-size: calc(10px + 1.1vmin);
 }
-

@@ -25,6 +25,7 @@
 .left {
   background-color: transparent;
   max-height: 100%;
+  font-family: monospace, sans-serif;
 }
 
 .right {
@@ -53,7 +54,6 @@
   border: 2px solid #f1f1f1;
   box-shadow: inset 0 0 25px #333;
   resize: none;
-  cursor: pointer;
 }
 
 .showHTML {
@@ -63,7 +63,9 @@
   border: 2px solid #f1f1f1;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: plum;
 }
 .showHTML > h1 {
@@ -81,7 +83,7 @@ h1, h2, h3 {
 
 ul,
 ol {
-  margin: 20px 0 20px 50px;
+  margin: 20px 0 20px 40px;
 }
 
 p {
