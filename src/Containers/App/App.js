@@ -8,8 +8,8 @@ import myStyle from  './App.module.css';
 function App() {
 
   // State
-  const [markdown, setMarkdown] = useState(`# Demo Projet Markdown Generator\n\n
-  Je suis un super fière de vous **présenter** ce projet.\n\nCe projet est disponible sur mon github à cette adresse : []()`)
+  const [markdown, setMarkdown] = useState(`# Projet Markdown Generator V2\n\n
+  Je suis un super fière de vous **présenter** ce projet.\n\nCe projet est disponible sur mon github à cette [adresse](https://github.com/Zyrass/React-Markdown-V2).\n\n1. Vous pouvez tout effacer, c'est fait pour.\n2. J'espère que ça vous plaira.\n\n\n- Sur Believemy il te donne les directive et c'est à toi de faire tout le code de A à Z.\n- La **V1** est disponible à cette [adresse](https://react-markdown-generator.herokuapp.com/).\n\n\n**Cordialement** **A**lain **G**uillon alias (**Z**yrass)\n\n\n\`PS : Merci à Believemy pour cette idée de projet.\``)
 
   // Functions
   const changeMarkdownHandler = event => {

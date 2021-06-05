@@ -10,6 +10,13 @@
   border-top: 5px solid #000;
 }
 
+.version {
+  color: plum;
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding: 0 0 0 5px;
+}
+
 @media screen and (max-width: 768px) {
   .footer {
     position: fixed;
