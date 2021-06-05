@@ -1,0 +1,19 @@
+.footer {
+  min-width: 100vw;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 0;
+  background-color: #3d3d3d;
+  color: rgb(255, 255, 255);
+  border-top: 5px solid #000;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    position: fixed;
+    bottom: 0;
+    overflow-x: hidden;
+  }
+}
